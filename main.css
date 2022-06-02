@@ -1,0 +1,100 @@
+.nav-link {
+    color: lightgray;
+}
+
+.nav-link:visited {
+    color: lightgray;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+nav ul {
+    margin: auto;
+}
+
+nav li {
+    margin: auto;
+    padding: 0 1em;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.iphone-showcase {
+    margin: auto;
+    text-align: center;
+}
+
+.iphone-links a {
+    padding: 0 1em 0 1em;
+}
+
+.iphone-img {
+    height: auto;
+    width: 40%;
+}
+
+.ipad-air-img {
+    width: 100%;
+}
+
+.advertisements-flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.advertisements-flexbox > .iphone-showcase {
+    border: 1px solid black;
+    width: 50%;
+}
+
+footer {
+    background-color: lightgray;
+}
+
+.disclaimers {
+    margin: auto;
+    padding-top: 10vh;
+}
+
+.disclaimers > p {
+    font-size: 60%;
+    margin: auto;
+    max-width: 40%;
+    text-align: left;
+}
+
+hr {
+    color: black;
+    width: 50%;
+    margin: 2em auto;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.links-flexbox {
+    margin: 0 40vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.links-flexbox > * {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.more {
+    font-size: 60%;
+    margin: auto;
+    max-width: 40%;
+    text-align: left;
+}
